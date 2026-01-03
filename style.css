@@ -1,0 +1,435 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    height: 750px;
+    width: 100%;
+    background-image: url("https://singh-cp.github.io/netflix-landingpage/images/netflix-background-image.jpg"); 
+    /* background-size: cover;
+    position: relative; */
+}
+
+  header:hover{
+    /* animation-name:heartBeat; */
+    animation-duration:3s ;
+}
+
+/* main::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0);
+} */
+
+nav{
+   
+    width: 100%;
+    height: 100px;
+    /* border: 1px solid;  */
+    /* margin-top: 50px; */
+    display: flex;
+
+}
+
+ .logo{
+    width: 70%;
+    
+    img{
+        width: 350px;
+        height: 90px;
+        padding-left: 200px;
+    }
+}
+
+.sys{
+    width: 10%;
+    padding-top: 30px;
+    
+
+}
+
+select{
+    border-radius: 5px;
+    /* width: 100px; */
+    width: 90%;
+    height: 40px;
+    font-size: larger;
+    color: white;
+    height: 30px;
+    background: none;
+}
+
+button{
+    width: 90px;
+    height: 30px;
+    margin-top: 29px;
+    background-color: red;
+    color: white;
+    border-radius: 6px;
+    font-size: larger;
+}
+
+.abc{
+    margin-top: 150px;
+    text-align: center;
+    color: white;
+    
+    
+
+     h1{
+        color: white;
+        font-size: 7ch;
+        font-weight: bold;
+        font-family: sans-serif
+    }
+}
+
+.abc p{
+    padding-top: 20px;
+    font-size:larger;
+    font-weight: lighter;
+
+
+}
+
+.abc input{
+    width: 300px;
+    color:black;
+    height: 50px;
+    /* background-color: rgb(92, 70, 70); */
+    background-color: darkgray;
+    font-size: large;
+    border-radius: 8px;
+    padding-left: 20px;
+    font-weight: bold;
+    opacity: 0.9;
+}
+
+.btn2{
+    width: 200px;
+    height: 50px;
+    color: red;
+    color: white;
+    font-size: large;
+    font-weight: bold;
+
+}
+#grad1 {
+  height:100px;
+  background-color: red; /* For browsers that do not support gradients */
+  background-image: linear-gradient(rgb(8, 8, 21),rgb(12, 12, 23));
+  border-radius: 23% 23% 0 0;
+  margin-top: 200px;
+}
+
+
+
+section{
+    height: 900px;
+    width: 100%;
+    margin-top: 70px;
+    color: white;
+    background-color:rgb(13, 13, 17);
+
+    h1{
+        margin-left: 150px;
+        padding-top: 30px;
+        font-family: sans-serif;
+    
+    }
+} 
+
+.hero2{
+    width: 80%;
+    margin: auto;
+    margin-top: 30px;
+
+     
+    img{
+         width: 22%;
+        margin-left: 20px;
+        border-radius: 10px;
+        /* transition: all 0.3s ease-out; */
+    }
+}
+
+   img:hover{
+    animation-name:bounceIn;
+    animation-duration:3s ;
+}
+
+.smart{
+    width: 100%;
+    height: 1900px;
+    background-color: black;
+
+
+    h2{
+        padding-top: 50px;
+         margin-left: 160px;
+        padding-top: 30px;
+        font-family: sans-serif;
+    
+    }
+}
+
+.syam{
+    width: 80%;
+    /* border: 2px solid white; */
+    height: 450px;
+    margin-top: 50px;
+    display: flex;
+    margin: auto;
+   
+}
+ /* .syam:hover{
+    animation-name:heartBeat;;
+    animation-duration:3s ;
+} */
+
+
+.A{
+    width: 22%;
+    border: 1px solid white;
+    height: 350px;
+     margin-left: 20px; 
+    border-radius: 10px;
+    
+    padding-top: 40px;
+    margin-top: 50px;
+    text-align: center;
+
+     background-color: red; 
+  background-image: linear-gradient(blue, rgb(29, 17, 17),white);
+
+
+  img{
+    margin-top: 40%;
+    padding-left: 30%;
+    width: 150px;
+    height: 70px;
+  }
+}
+
+
+
+.A  b{ 
+    font-size: x-large;
+    font-weight: bold;
+     padding-left: 20px; 
+    font-family: sans-serif;
+    margin-top: 20px;
+
+
+}
+
+.A  P{
+    font-size: normal;
+    padding-top: 20px;
+    font-weight: lighter;
+    padding-left: 10px;
+}
+
+
+.ram{
+    color: white;
+    /* padding-right: 0px; */
+
+    h1{
+        padding-top: 50px;
+    }
+
+}
+
+.ashik{
+    width: 100%;
+    height: 700px;
+    /* border: 2px solid; */
+    background-color: black;
+    
+    
+    .sky{
+        width: 90%;
+        height: 80px;
+        border: 1px solid;
+        margin-left: 5%;
+        margin-top: 1%;
+        display: flex;
+        background-color: black;
+        opacity: 10;
+        color: rgba(255, 255, 255, 0.861);
+        cursor: pointer;
+        border: none;
+        justify-content: space-between;
+       
+        
+}
+
+.sky h4{
+    padding-top: 30px;
+    font-size: large;
+    font-weight:lighter;
+    font-family: sans-serif;
+    padding-left: 30px;
+}
+}
+
+ button.btn3{
+    /* width: 10px; */
+    font-size: 45px;
+    background: none;
+    
+}
+
+
+
+.btn3{
+    display: flex;
+    font-size: xx-large;
+   background-color: rgb(13, 3, 3);
+   border: none;
+   /* margin-bottom: 100px; */
+   width: 100px; 
+   
+}
+
+
+ .sky:hover{ 
+ background-color: rgba(169, 169, 169, 0.763); 
+ color: black; 
+ }  
+   
+
+    /* input{
+         width: 100%;
+    height: 80px;
+    margin: auto;
+    padding-left: 30px;
+    /* background-color: black; */
+    /* border: 2px white;
+    font-size: larger;
+    font-weight: bold;
+    background-color:rgb(74, 74, 74);
+    margin-top: 20px;
+    color: white;
+    } */ */
+
+
+.foot{
+    width: 100%;
+    padding-left: 5%;
+   
+}
+
+.foot p{
+    /* margin-top: 100px; */
+    font-size: larger;
+    text-align: center;
+}
+
+.foot input{
+    width: 50%;
+    margin-left: 200px;
+    height: 50px;
+    background-color:rgb(12, 10, 10);
+    border-radius: 7px;
+    border: 1px solid wheat;
+    padding-left: 20px;
+    color: white;
+    font-size:large;
+}
+
+.foot button{
+    background-color: red;
+    border-radius: 7px;
+    color: white;
+    width: 150px;
+    height: 50px;
+    margin-left: 20px;
+    font-size: large;
+
+    p{
+    padding-top: 50px;
+    padding-left: 150px;
+    text-align: center;
+
+}
+}
+
+ h3{
+    padding-top: 40px;
+    margin-top: 50px;
+    padding-left: 150px;
+    text-align: start;
+   
+
+
+} 
+a{
+    text-decoration: underline;
+}
+
+.AC{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 200px;
+    margin: auto;
+    width: 70%;
+
+    span{
+        padding-top: 20px;
+        margin-top: 30px;
+        line-height: 40px;
+        text-decoration: underline;
+        opacity: 0.7;
+        
+    }
+}
+
+.cdn{
+
+    margin-left: 11%;
+    margin-top: 5%;
+
+    select{
+        background-color:black;
+        color: white;
+        border-radius: 7px;
+        border: 1px solid wheat;
+        width: 10%;
+        height: 30px;
+    }
+}
+
+.pra{
+    padding-top: 50px;
+    padding-left: 150px;
+
+    b{
+        font-size: medium;
+        font-weight: 300;
+        padding-top: 10px;
+
+      
+    
+    }
+}
+
+.pra p{
+    padding-top: 20px;
+    font-size: medium;
+    opacity: 0.6;
+
+}
+
+
+
+
+
+
